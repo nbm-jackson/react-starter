@@ -12,5 +12,6 @@ styling rules for app-wide element-level components
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
     font-family: Helvetica;
 }

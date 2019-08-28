@@ -22,5 +22,10 @@ styling rules for main layout component
     Main content container
 */
 .Main {
+    width: 100vw;
     min-height: calc(100vh - 10rem);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }

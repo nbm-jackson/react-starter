@@ -16,7 +16,8 @@ import './styles/App.css'
 
 const App = () => (
     <Layout>
-        React App
+        <h1>This is your React App</h1>
+        <p>Happy hacking!</p>
     </Layout>
 )
 
