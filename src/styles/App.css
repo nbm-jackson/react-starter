@@ -1,3 +1,14 @@
+/* 
+
+App.css
+------------------------
+styling rules for app-wide element-level components
+
+*/
+
+/* 
+    html, body
+*/
 html, body {
     margin: 0;
     padding: 0;

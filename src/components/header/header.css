@@ -1,3 +1,14 @@
+/* 
+
+header.css
+------------------------
+styling rules for main header component
+
+*/
+
+/* 
+    Container
+*/
 .Container {
     width: calc(100vw - 4rem);
     height: 5rem;
