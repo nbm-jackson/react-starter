@@ -6,6 +6,7 @@
 
 // dependencies
 import React from 'react'
+import PropTypes from 'prop-types'
 
 // components
 import Header from 'Components/header'
@@ -21,5 +22,9 @@ const Layout = ({ children }) => (
         <Footer />
     </div>
 )
+
+Layout.propTypes = {
+    children: PropTypes.isRequired,
+}
 
 export default Layout
