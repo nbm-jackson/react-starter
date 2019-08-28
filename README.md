@@ -27,7 +27,7 @@ The very basic template can be view [here](https://jacksons-react-starter.netlif
 
 2. **`src/`**: Directory containing all of the project files.
 
-3. **`.babelrc`**: [Babel](https://babeljs.io/docs/en/) configuration file. https://eslint.org/
+3. **`.babelrc`**: [Babel](https://babeljs.io/docs/en/) configuration file.
 
 4. **`.eslintrc.json`**: [ESLint](https://eslint.org/) configuration file.
 
