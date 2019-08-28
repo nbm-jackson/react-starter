@@ -1,0 +1,19 @@
+
+/* 
+    Base layout
+*/
+.Layout {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* 
+    Main content container
+*/
+.Main {
+    min-height: calc(100vh - 10rem);
+}

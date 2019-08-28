@@ -1,0 +1,13 @@
+
+/* 
+    Container
+*/
+.Container {
+    height: 5rem;
+    width: calc(100% - 4rem);
+    padding: 0 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
