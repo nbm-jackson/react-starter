@@ -4,7 +4,7 @@ import React from 'react'
 import { hot } from 'react-hot-loader'
 
 // layouts
-import Layout from './layouts/Layout'
+import Layout from 'Layouts/Layout'
 
 // styles
 import './styles/App.css'

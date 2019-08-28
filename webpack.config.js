@@ -25,7 +25,13 @@ module.exports = {
           }
         ]
       },
-      resolve: { extensions: ["*", ".js", ".jsx"] },
+      resolve: { 
+          extensions: ["*", ".js", ".jsx"], 
+          alias: {
+			Components: path.resolve(__dirname, "src/components"),
+			Styles: path.resolve(__dirname, "src/styles"),
+			Layouts: path.resolve(__dirname, "src/layouts")
+		}},
       output: {
         path: path.resolve(__dirname, "dist/"),
         publicPath: "/dist/",
