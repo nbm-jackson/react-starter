@@ -15,10 +15,14 @@ module.exports = {
           },
           {
             test: /\.css$/,
-            use: ["style-loader", "css-loader"],
-            options: {
-                modules: true
-            }
+            use: [
+                "style-loader", {
+                    loader: "css-loader",
+                    query: {
+                        modules: true,
+                        localIdentName: '[name]__[local]___[hash:base64:5]'
+                    }
+                }]
           }
         ]
       },
@@ -34,4 +38,5 @@ module.exports = {
         publicPath: "http://localhost:3000/dist/",
         hotOnly: true
       },
+      plugins: [new webpack.HotModuleReplacementPlugin()]
 }
