@@ -1,12 +1,18 @@
 
+// dependencies
 import React from 'react'
 import { hot } from 'react-hot-loader'
 
+// layouts
+import Layout from './layouts/Layout'
+
+// styles
+import './styles/App.css'
 
 const App = () => (
-    <div>
-        React app
-    </div>
+    <Layout>
+        React App
+    </Layout>
 )
 
 export default hot(module)(App)
