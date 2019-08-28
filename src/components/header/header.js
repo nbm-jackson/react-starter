@@ -1,6 +1,6 @@
 // ============================================================
 // header.js
-// 
+//
 // Main header component
 // ============================================================
 
@@ -11,7 +11,7 @@ import React from 'react'
 import style from './header.css'
 
 const header = () => (
-    <header className={ style.Container }>
+    <header className={style.Container}>
         <h3>This is your page header</h3>
         <p>Put some links over or something over here</p>
     </header>

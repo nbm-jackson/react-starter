@@ -1,6 +1,6 @@
 // ============================================================
 // footer.js
-// 
+//
 // Main footer component
 // ============================================================
 
@@ -10,10 +10,10 @@ import React from 'react'
 // styles
 import style from './footer.css'
 
-const footer = (props) => (
-    <footer className={ style.Container }>
+const footer = () => (
+    <footer className={style.Container}>
         <h3>This is your page footer</h3>
-        <p>Delete it if you don't need it</p>
+        <p>Delete it if you don&apos;t need it</p>
     </footer>
 )
 

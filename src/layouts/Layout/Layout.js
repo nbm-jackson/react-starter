@@ -1,6 +1,6 @@
 // ============================================================
 // layout.js
-// 
+//
 // Main layout component
 // ============================================================
 
@@ -14,12 +14,10 @@ import Footer from 'Components/footer'
 // styles
 import style from './Layout.css'
 
-const Layout = (props) => (
-    <div className={ style.Layout }>
+const Layout = ({ children }) => (
+    <div className={style.Layout}>
         <Header />
-            <div className={ style.Main }>
-                {props.children}
-            </div>
+        <div className={style.Main}>{children}</div>
         <Footer />
     </div>
 )
