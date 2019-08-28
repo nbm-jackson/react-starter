@@ -1,6 +1,6 @@
 // ============================================================
 // app.js
-// 
+//
 // Main App component
 // ============================================================
 
@@ -14,8 +14,12 @@ import Layout from 'Layouts/Layout'
 // styles
 import './styles/App.css'
 
+// icons
+import icon from 'Images/react-logo.svg'
+
 const App = () => (
     <Layout>
+        <img style={{ height: '5rem' }} src={icon} alt="React." />
         <h1>This is your React App</h1>
         <p>Happy hacking!</p>
     </Layout>

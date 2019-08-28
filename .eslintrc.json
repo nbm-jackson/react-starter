@@ -1,13 +1,14 @@
 {
-  "parser": "babel-eslint",
-  "extends": ["airbnb", "prettier"],
-  "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": "warn",
-    "no-unused-vars": "warn",
-    "react/jsx-curly-spacing": "off",
-    "react/jsx-filename-extension": "off",
-    "react/jsx-indent": "off",
-    "import/no-unresolved": "off"
-  }
+    "parser": "babel-eslint",
+    "extends": ["airbnb", "prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "warn",
+        "no-unused-vars": "warn",
+        "react/jsx-curly-spacing": "off",
+        "react/jsx-filename-extension": "off",
+        "react/jsx-indent": "off",
+        "import/no-unresolved": "off",
+        "import/no-extraneous-dependencies": "off"
+    }
 }
